@@ -101,7 +101,8 @@ function Hero() {
         <source src="/BGV.mp4" type="video/mp4" />
       </video>
       <div className="hero-floaters">
-        {["🍰","🧁","🍫","🍓","🌸","✨"].map((e,i)=>(
+        {/* "🍫" */}
+        {["🍰","🧁",,"🍓","🌸","✨"].map((e,i)=>(
           <span key={i} className="floater">{e}</span>
         ))}
       </div>
