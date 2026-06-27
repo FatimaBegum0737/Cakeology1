@@ -695,7 +695,7 @@ header.scrolled .burger span { background:var(--choco); }
 }
 #about .eyebrow {
   font-size: 35px;
-  font-weight: 900;
+  font-weight: 800;
   letter-spacing: 0.1em;
   color: var(--rose);
 }
