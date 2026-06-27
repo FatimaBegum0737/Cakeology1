@@ -955,3 +955,25 @@ footer { background:#6e2f4d; color:var(--blush); padding:64px 0 24px; }
     scroll-behavior:auto !important;
   }
 }
+.lightbox-order-btn {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #25d366;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 10;
+}
+
+.lightbox-order-btn:hover {
+  background: #1ebe5d;
+}

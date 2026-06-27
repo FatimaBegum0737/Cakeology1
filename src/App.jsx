@@ -429,11 +429,17 @@ function Gallery() {
         </div>
       </div>
       {lb && (
-        <div className="lightbox active" role="dialog" aria-modal="true" aria-label="Image preview" onClick={() => setLb(null)}>
-          <button className="lightbox-close" onClick={() => setLb(null)} aria-label="Close">&times;</button>
-          <img src={lb} alt="Preview" onClick={(e) => e.stopPropagation()} />
-        </div>
-      )}
+  <div className="lightbox active" role="dialog" aria-modal="true" aria-label="Image preview" onClick={() => setLb(null)}>
+    <button className="lightbox-close" onClick={() => setLb(null)} aria-label="Close">&times;</button>
+    <img src={lb} alt="Preview" onClick={(e) => e.stopPropagation()} />
+    <button
+      className="lightbox-order-btn"
+      onClick={(e) => { e.stopPropagation(); openWhatsApp(); }}
+    >
+      <WaIcon size={16} /> Order Now
+    </button>
+  </div>
+)}
     </section>
   );
 }
