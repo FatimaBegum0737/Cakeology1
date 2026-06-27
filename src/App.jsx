@@ -9,9 +9,9 @@ const scrollTo = (id, offset = 80) => {
 
 // ── WhatsApp helper ───────────────────────────────────────────────────────────
 const openWhatsApp = (name = "", price = "") => {
-  const msg = name
-    ? `Hello Cakeology! 👋\n\nI would like to order:\n\n🎂 *${name}*\n💰 Price: *${price}*\n\nPlease share delivery details and availability. Thank you!`
-    : `Hello Cakeology! 👋\n\nI would like to place an order. Please help me with the details!`;
+const msg = name
+  ? `Hello Cakeology! 👋\n\nI would like to order:\n\n🎂 *${name}*\n💰 Price: *${price}*\n\nPlease share delivery details and availability. Thank you!`
+  : `Hello Cakeology! 👋\n\nI would like to place an order. Please help me with the details!`;
   window.open(`https://wa.me/918296142981?text=${encodeURIComponent(msg)}`, "_blank", "noopener");
 };
 
@@ -524,7 +524,7 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const msg = `Hello Cakeology! 👋\n\nNew enquiry:\n\n👤 Name: ${form.name}\n📞 Phone: ${form.phone}\n🎉 Occasion: ${form.occasion}\n\n💬 Message:\n${form.message || "No additional message."}\n\nThank you!`;
+    const msg = `Hello Cakeology!\n\nNew enquiry:\n\n• Name: ${form.name}\n• Phone: ${form.phone}\n• Occasion: ${form.occasion}\n\n• Message:\n${form.message || "No additional message."}\n\nThank you!`;
     window.open(`https://wa.me/918296142981?text=${encodeURIComponent(msg)}`, "_blank", "noopener");
     setSent(true);
     setForm({ name:"", phone:"", occasion:"Birthday", message:"" });
