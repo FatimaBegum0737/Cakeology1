@@ -365,17 +365,16 @@ function Kunafa() {
 
 // ── Videos ────────────────────────────────────────────────────────────────────
 const videoCards = [
-  { src:"/mangoVi.mp4",  poster:"/AniC.jpeg",    tag:"Decorating",    title:"Cake Decorating" },
-  { src:"/mangoVi.mp4",  poster:"/backimg.webp",  tag:"In The Kitchen",title:"Baking Process" },
-  { src:"/EidVideo.mp4", poster:"/CEB.jpeg",      tag:"Sweet Moments", title:"Customer Celebrations" },
+  { src:"/weddingV.mp4",  poster:"/AniC.jpeg",    tag:"Our Specialty",   title:"Mango Tres Leches" },
+  { src:"/mangoVi.mp4",  poster:"/backimg.webp",  tag:"Premium Dessert", title:"Mango Desert Special" },
+  { src:"/EidVideo.mp4", poster:"/CEB.jpeg",      tag:"Special Occasion",title:"Eid Celebration Cakes" },
 ];
-
 function Videos() {
   return (
     <section className="videos">
       <div className="container">
         <div className="section-head" data-aos="fade-up">
-          <div className="eyebrow">Behind The Scenes</div>
+          <div className="eyebrow">Our Sweet Creations</div>
           <h2 className="section-title">Watch The <em>Magic</em> Happen</h2>
           <p className="section-sub">From batter to masterpiece — a peek inside the Cakeology kitchen.</p>
         </div>
