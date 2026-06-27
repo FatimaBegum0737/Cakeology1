@@ -365,7 +365,7 @@ function Kunafa() {
 
 // ── Videos ────────────────────────────────────────────────────────────────────
 const videoCards = [
-  { src:"/weddingV.mp4",  poster:"/AniC.jpeg",    tag:"Our Specialty",   title:"Mango Tres Leches" },
+  { src:"/weddingV.mp4",  poster:"/AniC.jpeg",    tag:"Our Specialty",   title:"Wedding Cake" },
   { src:"/mangoVi.mp4",  poster:"/backimg.webp",  tag:"Premium Dessert", title:"Mango Desert Special" },
   { src:"/EidVideo.mp4", poster:"/CEB.jpeg",      tag:"Special Occasion",title:"Eid Celebration Cakes" },
 ];
