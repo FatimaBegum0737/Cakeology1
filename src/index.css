@@ -694,9 +694,9 @@ header.scrolled .burger span { background:var(--choco); }
   border-radius:50%; z-index:1; animation:spin 30s linear infinite;
 }
 #about .eyebrow {
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 800;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.1em;
   color: var(--rose);
 }
 @keyframes spin { to { transform:rotate(360deg); } }
