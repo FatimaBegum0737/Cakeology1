@@ -117,7 +117,12 @@ button { font-family:inherit; cursor:pointer; border:none; background:none; }
 .section-head .eyebrow::before  { display:none; }
 .section-head .eyebrow::after   { content:""; width:30px; height:1.5px; background:var(--gold); }
 .section-head .section-sub { text-align:center; }
-
+#menu-card .eyebrow {
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  color: var(--rose);
+}
 /* ── Shared buttons ─────────────────────────────────────────────────────────── */
 .gold-btn {
   display:inline-flex; align-items:center; gap:9px;
