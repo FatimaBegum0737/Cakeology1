@@ -120,7 +120,7 @@ button { font-family:inherit; cursor:pointer; border:none; background:none; }
 #menu-card .eyebrow {
   font-size: 28px;
   font-weight: 850;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   color: var(--rose);
 }
 /* ── Shared buttons ─────────────────────────────────────────────────────────── */
