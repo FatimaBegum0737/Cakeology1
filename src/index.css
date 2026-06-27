@@ -693,6 +693,12 @@ header.scrolled .burger span { background:var(--choco); }
   width:120px; height:120px; border:2px dashed var(--gold);
   border-radius:50%; z-index:1; animation:spin 30s linear infinite;
 }
+#about .eyebrow {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 0.25em;
+  color: var(--rose);
+}
 @keyframes spin { to { transform:rotate(360deg); } }
 
 .about-content h2 { font-family:var(--display); font-size:clamp(28px,4vw,48px); font-weight:700; line-height:1.15; margin-bottom:22px; }
