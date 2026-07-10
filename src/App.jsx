@@ -99,7 +99,7 @@ function Navbar() {
         {/* Logo */}
         <a href="#home" className="logo" onClick={(e) => handleNav(e, "home")}>
           <div className="logo-img-wrap">
-            <img src="/Logo.jpeg" alt="Cakeology Logo" className="logo-img" loading="eager" />
+            <img src="/Logo1.jpeg" alt="Cakeology Logo" className="logo-img" loading="eager" />
           </div>
           <div className="logo-text-wrap">
             <span className="logo-name">Cakeology</span>
@@ -622,7 +622,7 @@ function Footer() {
         <div className="footer-top">
           <div className="footer-brand">
             <a href="#home" className="footer-logo" onClick={(e) => navScroll(e, "#home")}>
-              <img src="/Logo.jpeg" alt="Cakeology" loading="lazy" />
+              <img src="/Logo1" alt="Cakeology" loading="lazy" />
               <span>Cakeology</span>
             </a>
             <p>Freshly baked, beautifully crafted desserts for every celebration — handmade with love in Gulbarga.</p>
